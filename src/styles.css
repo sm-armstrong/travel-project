@@ -26,13 +26,73 @@ body {
   margin: 0 auto;
 }
 
+footer {
+  background-image: linear-gradient(
+    rgba(39, 32, 68, 0.8),
+    rgba(39, 32, 68, 0.8)
+  ), url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 20px;
+  opacity: 0.7;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/brisbane.jpg);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+    ), url(../images/brisbane.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   padding: 200px 0;
   text-align: center;
+}
+
+header a {
+  background: white;
+  color: #272044; 
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  margin-top: 32px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 header h1 {
@@ -54,21 +114,12 @@ header h3 {
   margin: 0;
 }
 
-header a {
-  background: white;
-  color: #272044; 
-  display: inline-block;
-  font-size: 14px;
-  letter-spacing: 3px;
-  line-height: 1.5;
-  margin-top: 32px;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
+section {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }

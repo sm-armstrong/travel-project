@@ -21,6 +21,33 @@ body {
   background: #272044;
 }
 
+.btn {
+  background-color: #462cb3;
+  color: white;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 21px;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -69,6 +96,10 @@ footer ul {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-3-columns-with-first-narrow {
@@ -121,6 +152,7 @@ header h3 {
 }
 
 .img-responsive {
+  display: block;
   max-width: 100%;
 }
 
@@ -145,6 +177,20 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  color: #272044;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+main h5 {
+  color: #272044;
+  font-size: 13px;
+  line-height: 1;
+  margin: 0;
+}
+
 main p {
   color: #272044; 
   font-size: 16px;
@@ -154,8 +200,16 @@ main p {
 
 section {
   margin: 0 auto;
-  max-width: 1200px;
-  padding: 100px 0;
+  max-width: 100%;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 960px) {

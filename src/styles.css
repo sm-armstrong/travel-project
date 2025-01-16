@@ -37,20 +37,14 @@ footer {
   padding: 100px 0;
 }
 
-footer h3 {
-  font-size: 20px;
-  line-height: 30px;
-}
-
-footer p {
-  font-size: 16px;
-  line-height: 24px;
-  margin-right: 20px;
+footer a {
+  color: white;
   opacity: 0.7;
 }
 
-footer ul {
-  padding: 0;
+footer h3 {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 footer li {
@@ -59,13 +53,19 @@ footer li {
   padding: 0;
 }
 
-footer a {
-  color: white;
+footer p {
+  font-size: 16px;
+  line-height: 24px;
   opacity: 0.7;
+}
+
+footer ul {
+  padding: 0;
 }
 
 .grid {
   display: grid;
+  grid-gap: 64px;
   grid-template-columns: 1fr 2fr 2fr;
 }
 

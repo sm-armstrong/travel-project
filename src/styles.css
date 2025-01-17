@@ -14,13 +14,20 @@
   font-variation-settings: "wdth" 100;
 }
 
+.montserrat-regular > {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  background: #272044;
+  background: #000097;
 }
 
 .btn {
-  background-color: #462cb3;
-  color: white;
+  background-color: #ffc901;
+  color: #000097;
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -124,8 +131,8 @@ header {
 }
 
 header a {
-  background: white;
-  color: #272044;
+  background: #ffc901;
+  color: #000097;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 3px;
@@ -171,39 +178,40 @@ main {
 }
 
 main h2 {
-  color: #272044;
+  color: #000097;
   font-size: 16px;
   letter-spacing: 5px;
   line-height: 1.5;
   margin: 0;
-  opacity: 0.3;
+  opacity: 0.4;
   text-transform: uppercase;
 }
 
 main h3 {
-  color: #272044;
+  color: #000097;
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
 }
 
 main h4 {
-  color: #272044;
+  color: #000097;
   font-size: 24px;
   line-height: 1;
   margin: 0;
 }
 
 main h5 {
-  color: #272044;
-  font-size: 13px;
+  color: #000097;
+  font-size: 18px;
   line-height: 1;
   margin: 0;
 }
 
-main p {
-  color: #272044;
-  font-size: 16px;
+main p,
+main ul {
+  color: #000097;
+  font-size: 20px;
   line-height: 1.5;
   opacity: 0.7;
 }
